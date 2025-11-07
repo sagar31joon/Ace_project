@@ -1,0 +1,211 @@
+text,intent
+search for Elon Musk,WEB_SEARCH
+google python tutorials,WEB_SEARCH
+find nearest coffee shop,WEB_SEARCH
+look up weather in Bahadurgarh,WEB_SEARCH
+search the meaning of AI,WEB_SEARCH
+ace search for macbook prices,WEB_SEARCH
+show me how to cook pasta,WEB_SEARCH
+look for java documentation,WEB_SEARCH
+find best pizza recipe,WEB_SEARCH
+search for news headlines,WEB_SEARCH
+ace find stock price of apple,WEB_SEARCH
+look up youtube trending videos,WEB_SEARCH
+google latest technology updates,WEB_SEARCH
+search images of sunsets,WEB_SEARCH
+find travel tips for japan,WEB_SEARCH
+what’s trending on twitter,WEB_SEARCH
+look up cricket world cup score,WEB_SEARCH
+show me latest gadgets,WEB_SEARCH
+google healthy diet plan,WEB_SEARCH
+search about climate change,WEB_SEARCH
+find ai research papers,WEB_SEARCH
+ace search nasa news,WEB_SEARCH
+look up stock market today,WEB_SEARCH
+google space exploration,WEB_SEARCH
+find best smartphones 2025,WEB_SEARCH
+search youtube music,WEB_SEARCH
+ace search coding bootcamps,WEB_SEARCH
+look for free courses online,WEB_SEARCH
+find memes on reddit,WEB_SEARCH
+google nearby gyms,WEB_SEARCH
+search news about elections,WEB_SEARCH
+find info on tesla cars,WEB_SEARCH
+look up recipes for chicken curry,WEB_SEARCH
+google football match schedule,WEB_SEARCH
+search nearby movie theaters,WEB_SEARCH
+find cheapest flight tickets,WEB_SEARCH
+ace show me programming tutorials,WEB_SEARCH
+look up latest iphone reviews,WEB_SEARCH
+google motivational quotes,WEB_SEARCH
+search best tourist places,WEB_SEARCH
+find tech blogs online,WEB_SEARCH
+google meditation benefits,WEB_SEARCH
+look up youtube workout videos,WEB_SEARCH
+search best hotels in delhi,WEB_SEARCH
+find books by stephen king,WEB_SEARCH
+google how to learn guitar,WEB_SEARCH
+search live news,WEB_SEARCH
+find scholarship info,WEB_SEARCH
+search examples of ai,WEB_SEARCH
+google stock predictions,WEB_SEARCH
+open spotify,OPEN_APP
+launch safari,OPEN_APP
+start calculator,OPEN_APP
+open google chrome,OPEN_APP
+launch notes app,OPEN_APP
+ace open terminal,OPEN_APP
+run vscode,OPEN_APP
+launch music player,OPEN_APP
+start photos app,OPEN_APP
+open preview,OPEN_APP
+ace start mail app,OPEN_APP
+run calendar,OPEN_APP
+launch reminders,OPEN_APP
+open facetime,OPEN_APP
+open settings,OPEN_APP
+launch whatsapp,OPEN_APP
+start discord,OPEN_APP
+ace open telegram,OPEN_APP
+run slack,OPEN_APP
+open zoom app,OPEN_APP
+launch instagram,OPEN_APP
+open twitter,OPEN_APP
+start youtube app,OPEN_APP
+launch netflix,OPEN_APP
+ace run excel,OPEN_APP
+open word app,OPEN_APP
+launch powerpoint,OPEN_APP
+open photoshop,OPEN_APP
+start illustrator,OPEN_APP
+open after effects,OPEN_APP
+launch premiere pro,OPEN_APP
+ace open maps app,OPEN_APP
+run contacts,OPEN_APP
+open files app,OPEN_APP
+launch kindle,OPEN_APP
+open audible,OPEN_APP
+start safari reader,OPEN_APP
+launch system monitor,OPEN_APP
+open task manager,OPEN_APP
+ace open settings panel,OPEN_APP
+run bluetooth settings,OPEN_APP
+open sound preferences,OPEN_APP
+launch accessibility,OPEN_APP
+open app store,OPEN_APP
+start finder,OPEN_APP
+launch itunes,OPEN_APP
+open dictionary app,OPEN_APP
+open calculator plus,OPEN_APP
+ace run xcode,OPEN_APP
+open android studio,OPEN_APP
+launch terminal pro,OPEN_APP
+open vs community,OPEN_APP
+ace open unity,OPEN_APP
+open blender,OPEN_APP
+launch obs studio,OPEN_APP
+open steam,OPEN_APP
+open the report file,OPEN_FILE
+open my downloads folder,OPEN_FILE
+ace open document sales.xlsx,OPEN_FILE
+launch presentation.pptx,OPEN_FILE
+show me budget.csv,OPEN_FILE
+open resume.pdf,OPEN_FILE
+ace open homework.docx,OPEN_FILE
+launch project_notes.txt,OPEN_FILE
+open todo_list.txt,OPEN_FILE
+ace open meeting_minutes.doc,OPEN_FILE
+start data_analysis.py,OPEN_FILE
+show the design.png file,OPEN_FILE
+open invoice_2025.pdf,OPEN_FILE
+open vacation_photos.zip,OPEN_FILE
+open tax_report.docx,OPEN_FILE
+show me research.pdf,OPEN_FILE
+ace open contract.docx,OPEN_FILE
+open article.txt,OPEN_FILE
+launch financials.xlsx,OPEN_FILE
+open thesis.pdf,OPEN_FILE
+ace open presentation_final.pptx,OPEN_FILE
+show me checklist.csv,OPEN_FILE
+open summary.doc,OPEN_FILE
+launch expenses.xlsx,OPEN_FILE
+open logo.png,OPEN_FILE
+open diagram.svg,OPEN_FILE
+open archive.zip,OPEN_FILE
+ace open screenshot.png,OPEN_FILE
+open profile_pic.jpg,OPEN_FILE
+launch movie.mp4,OPEN_FILE
+open audio.mp3,OPEN_FILE
+open system_logs.txt,OPEN_FILE
+open syllabus.pdf,OPEN_FILE
+ace open timetable.xlsx,OPEN_FILE
+show me poster.png,OPEN_FILE
+open mockup.ai,OPEN_FILE
+launch brochure.pdf,OPEN_FILE
+open contract2025.docx,OPEN_FILE
+open project_code.py,OPEN_FILE
+ace open app.js,OPEN_FILE
+launch index.html,OPEN_FILE
+open styles.css,OPEN_FILE
+open script.js,OPEN_FILE
+open model.pkl,OPEN_FILE
+ace open database.sql,OPEN_FILE
+open presentation_demo.pptx,OPEN_FILE
+open notes_draft.txt,OPEN_FILE
+open weekly_report.pdf,OPEN_FILE
+what time is it,GET_TIME
+tell me the time,GET_TIME
+current time please,GET_TIME
+can you tell the time,GET_TIME
+time right now,GET_TIME
+check time please,GET_TIME
+what’s the clock say,GET_TIME
+how are you,GENERAL_CONVERSATION
+ace tell me a joke,GENERAL_CONVERSATION
+what do you think about AI,GENERAL_CONVERSATION
+tell me something interesting,GENERAL_CONVERSATION
+how's your day going,GENERAL_CONVERSATION
+ace what's up,GENERAL_CONVERSATION
+tell me a fun fact,GENERAL_CONVERSATION
+what's your opinion on movies,GENERAL_CONVERSATION
+chat with me,GENERAL_CONVERSATION
+what do you know about space,GENERAL_CONVERSATION
+ace let's talk,GENERAL_CONVERSATION
+tell me about yourself,GENERAL_CONVERSATION
+do you like music,GENERAL_CONVERSATION
+what can you do,GENERAL_CONVERSATION
+what's the meaning of life,GENERAL_CONVERSATION
+hey ace,GENERAL_CONVERSATION
+how’s it going,GENERAL_CONVERSATION
+let’s chat,GENERAL_CONVERSATION
+say something funny,GENERAL_CONVERSATION
+tell me about tech,GENERAL_CONVERSATION
+can we talk,GENERAL_CONVERSATION
+tell me about science,GENERAL_CONVERSATION
+share something random,GENERAL_CONVERSATION
+ace how’s your mood,GENERAL_CONVERSATION
+what’s going on,GENERAL_CONVERSATION
+talk to me,GENERAL_CONVERSATION
+tell me about history,GENERAL_CONVERSATION
+say something smart,GENERAL_CONVERSATION
+let’s have a chat,GENERAL_CONVERSATION
+you good,GENERAL_CONVERSATION
+any news ace,GENERAL_CONVERSATION
+can you tell me a fact,GENERAL_CONVERSATION
+what’s new today,GENERAL_CONVERSATION
+ace give me trivia,GENERAL_CONVERSATION
+how do you feel,GENERAL_CONVERSATION
+say something cool,GENERAL_CONVERSATION
+tell me about nature,GENERAL_CONVERSATION
+ace say hi,GENERAL_CONVERSATION
+what’s your thought,GENERAL_CONVERSATION
+mute yourself,MUTE
+ace mute,MUTE
+stop talking,MUTE
+be silent,MUTE
+shut up,MUTE
+unmute yourself,UNMUTE
+ace unmute,UNMUTE
+start talking again,UNMUTE
+voice on,UNMUTE
+resume speaking,UNMUTE

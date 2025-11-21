@@ -22,7 +22,7 @@ print("Loading spaCy model (This may take a few seconds)...")
 nlp = spacy.load("en_core_web_md")
 
 # 2️⃣ Load our dataset (CSV file containing text + intent labels)
-dataset_path = os.path.join("models", "intent_dataset.csv")
+dataset_path = "models/intent_dataset_10000_clean_2.csv"
 print(f"Loading dataset from: {dataset_path}...")
 df = pd.read_csv(dataset_path)
 
@@ -35,12 +35,18 @@ y = df["intent"] # The labels (intents) for each sentence
 # 4️⃣ Split the data into training set (90%) and testing set (10%)
 #    - Training set is used to teach the model.
 #    - Testing set is used to check how well it learned.
-x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.1, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
 
 # 5️⃣ Create & train the Logistic Regression model
 #    - max_iter=1000 allows enough passes over the data to converge.
 print("Training Logistic Regression intent classifier...")
-clf = LogisticRegression(max_iter=1000)
+clf = LogisticRegression(
+                            max_iter=1000,
+                            C=0.5,          # lower = more regularization = less overfitting
+                            penalty='l2',   # default, but we set explicitly
+                            solver='lbfgs', # best for small/medium datasets, supports L2
+                            multi_class='auto'
+                        )
 clf.fit(x_train, y_train)
 
 # 6️⃣ Test the model on the testing set and print performance stats

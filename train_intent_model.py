@@ -22,7 +22,7 @@ print("Loading spaCy model (This may take a few seconds)...")
 nlp = spacy.load("en_core_web_md")
 
 # 2️⃣ Load our dataset (CSV file containing text + intent labels)
-dataset_path = "models/intent_dataset_10000_clean_2.csv"
+dataset_path = "models/intent_dataset_10000.csv"
 print(f"Loading dataset from: {dataset_path}...")
 df = pd.read_csv(dataset_path)
 

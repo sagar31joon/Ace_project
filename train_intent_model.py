@@ -22,7 +22,7 @@ print("Loading spaCy model (This may take a few seconds)...")
 nlp = spacy.load("en_core_web_md")
 
 # 2️⃣ Load our dataset (CSV file containing text + intent labels)
-dataset_path = "models/intent_dataset_10000.csv"
+dataset_path = "models/intent_dataset_210.csv"
 print(f"Loading dataset from: {dataset_path}...")
 df = pd.read_csv(dataset_path)
 
@@ -42,10 +42,7 @@ x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_s
 print("Training Logistic Regression intent classifier...")
 clf = LogisticRegression(
                             max_iter=700,
-                            C=0.1,          # lower = more regularization = less overfitting
-                            penalty='l2',   # default, but we set explicitly
-                            solver='lbfgs', # best for small/medium datasets, supports L2
-                            multi_class='auto'
+
                         )
 clf.fit(x_train, y_train)
 

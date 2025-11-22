@@ -1,4 +1,4 @@
-text,intent
+text,intent(LABELS)
 unmute yourself,UNMUTE
 run app store,OPEN_APP
 open accessibility,OPEN_APP
